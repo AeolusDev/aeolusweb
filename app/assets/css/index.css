@@ -1,0 +1,327 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+    --sb-track-color: #232E33;
+    --sb-thumb-color: #e800ff;
+    --sb-size: 5px;
+}
+
+body::-webkit-scrollbar {
+    width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 10px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    body {
+        scrollbar-color: var(--sb-thumb-color)
+                        var(--sb-track-color);
+    }
+}
+
+.background {
+    position:absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+/*--------------------------------------------------------------
+# NavBar
+--------------------------------------------------------------*/
+.navbar{
+    height: 50px;
+    width: fit-content;
+    position: fixed;
+    top: 50%; /* Center vertically */
+    left: 0;
+    padding-left: 10px;
+    transform: translateY(-50%); /* Adjust to center */
+    z-index: 16; /* Ensure it stays on top */
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+.hero .font-extrabold span{
+    position: relative;
+    top: 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap; /* Optional: Wrap items to the next line if needed */
+} 
+
+/*--------------------------------------------------------------
+# Links
+--------------------------------------------------------------*/
+.hero .font-extrabold{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.hero .font-extrabold a{
+    display: inline-block;
+    transform: translateX(-48px) translateY(0px);
+}
+
+.hero .font-extrabold .social-box{
+    position: relative;
+    top: 249px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 100px; /* Optional: Add space between items */
+    flex-wrap: wrap; /* Optional: Wrap items to the next line if needed */
+}
+/*--------------------------------------------------------------
+# Quotes
+--------------------------------------------------------------*/
+.quoteField{
+    top: 540px;
+    left: 250px;
+    position: absolute;
+    z-index: 20;
+    color:#8F5FD8;
+    font-size:20px;
+    text-decoration:none;
+    font-style:normal;
+    font-weight:700;
+    text-align: center;
+    font-family:Helvetica;
+}
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.abt_title{
+    font-size: 40px; 
+    height: fit-content; 
+    position: absolute; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    top:660px;
+}
+
+.abt_desc{
+    font-size: 20px; 
+    height: fit-content; 
+    position: absolute; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    top:720px;
+    color: #b9b9b9;
+}
+
+.logo{
+    position: relative;
+    padding-left:0px;
+    border-radius: 2rem;
+    top:850px;
+    transform: translateX(75px) translatey(0px);
+    box-sizing: border-box;
+}
+
+
+.row{
+    position: relative;
+    top: 600px;
+    left: 450px;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    margin-right: 10px;
+    font-size:18px;
+}
+
+.row .birthday{
+    position: relative;
+    top:30px;
+}
+
+.row .website{
+    position: relative;
+    top: 40px;
+
+}
+
+.row .age{
+    position: relative;
+    top: 50px;
+    height:30px;
+}
+
+.row .email{
+    position: relative;
+    top: 60px;
+}
+
+#date {
+    position: relative;
+    left:65px;
+    top:-26px;
+}
+
+
+/*--------------------------------------------------------------
+# Stats Section
+--------------------------------------------------------------*/
+.stat_title{
+    font-size: 40px; 
+    height: fit-content; 
+    position: absolute; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    top: 860px;
+    width: 100%;
+}
+
+.stat_desc{
+    font-size: 20px; 
+    height: fit-content; 
+    position: absolute; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    top:920px;
+    color: #b9b9b9;
+}
+
+.aos-init .progress-bars{
+    width: 100%;
+    height: fit-content; 
+    position: absolute; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.aos-init .progress-bars .progress{
+    position: relative;
+    width: 80%;
+    top: 480px;
+    left: 40px;
+    padding-bottom: 50px;
+}
+
+.aos-init .progress-bars .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+.aos-init .progress-bars .progress .skill {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #45505b;
+}
+.aos-init .progress-bars .progress .skill .val {
+    float: right;
+    font-style: normal;
+}
+.aos-init .progress-bars .progress-bar-wrap {
+    background: #f2f3f500;
+}
+.aos-init .progress-bars .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #0563bb;
+}
+
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+.cnt_title{
+    font-size: 40px; 
+    height: fit-content; 
+    position: absolute; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    top: 1260px;
+    width: 100%;
+}
+
+.cnt_desc{
+    font-size: 20px; 
+    height: fit-content; 
+    position: absolute; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    top:1320px;
+    color: #b9b9b9;
+}
+
+.aos-init .info{
+    position: relative;
+    width: 50%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.aos-init .info .address{
+    position: relative;
+    width: 100%;
+    left: 400px;
+}
+
+.aos-init .info .email{
+    position: relative;
+    width: 100%;
+    left: 400px;
+}
+
+/*--------------------------------------------------------------
+# Footer Section
+--------------------------------------------------------------*/
+
+.footer_title{
+    font-size: 40px; 
+    height: fit-content; 
+    position: absolute; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    top: 1560px;
+    width: 100%;
+}
+
+.copyright{
+    font-size: 18px; 
+    height: fit-content; 
+    position: absolute; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    top:1620px;
+    color: #b9b9b9;
+}

@@ -52,6 +52,27 @@ body::-webkit-scrollbar-thumb {
     z-index: 16; /* Ensure it stays on top */
 }
 
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for tablets */
+@media (min-width: 600px) {
+    .navbar {
+        padding: 20px;
+    }
+}
+
+/* Styles for desktops */
+@media (min-width: 1024px) {
+    .navbar {
+        position: fixed;
+        width: 100%;
+    }
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -324,4 +345,9 @@ body::-webkit-scrollbar-thumb {
     width: 100%; 
     top:1620px;
     color: #b9b9b9;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }

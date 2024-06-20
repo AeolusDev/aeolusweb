@@ -224,7 +224,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        top: 900px;
+        top: 950px;
         width: 100%;
     }
 
@@ -236,14 +236,15 @@ body {
         align-items: center;
         justify-content: center;
         width: 100%;
-        top: 960px;
+        top: 1020px;
         color: #b9b9b9;
     }
 
     .aos-init .progress-bars {
         width: 100%;
         height: fit-content;
-        position: absolute;
+        position: relative;
+        top: 1050px;
         display: flex;
         align-items: center;
         justify-content: center;

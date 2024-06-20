@@ -95,9 +95,6 @@ body {
         align-items: center;
         display: flex;
         gap: 20px;
-        /* Optional: Add space between items */
-        flex-wrap: wrap;
-        /* Optional: Wrap items to the next line if needed */
     }
 
     .social-box a .icon-box{
@@ -128,11 +125,12 @@ body {
 --------------------------------------------------------------*/
 .hero .quoteField{
         top: 500px;
-        left: -250px;
+        width: 100%;
+        height: fit-content;
         position: absolute;
         z-index: 20;
         color: #8F5FD8;
-        font-size: 20px;
+        font-size: 18px;
         text-decoration: none;
         font-style: normal;
         font-weight: 700;

@@ -94,7 +94,7 @@ body {
         justify-content: center;
         align-items: center;
         display: flex;
-        gap: 100px;
+        gap: 20px;
         /* Optional: Add space between items */
         flex-wrap: wrap;
         /* Optional: Wrap items to the next line if needed */

@@ -169,7 +169,7 @@ body {
         padding-left: 0px;
         border-radius: 2rem;
         top: 850px;
-        transform: translateX(60px) translatey(0px);
+        transform: translateX(50px) translatey(0px);
         box-sizing: border-box;
     }
 
@@ -177,7 +177,7 @@ body {
     .row {
         position: relative;
         top: 850px;
-        left: 50px;
+        left: 30px;
         width: fit-content;
         height: fit-content;
         align-items: center;
@@ -252,8 +252,8 @@ body {
     .aos-init .progress-bars .progress {
         position: relative;
         width: 80%;
-        top: 480px;
-        left: 40px;
+        top: 500px;
+        left: 0px;
         padding-bottom: 50px;
     }
 

@@ -169,7 +169,7 @@ body {
         padding-left: 0px;
         border-radius: 2rem;
         top: 850px;
-        transform: translateX(70px) translatey(0px);
+        transform: translateX(60px) translatey(0px);
         box-sizing: border-box;
     }
 
@@ -224,7 +224,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        top: 860px;
+        top: 900px;
         width: 100%;
     }
 
@@ -236,7 +236,7 @@ body {
         align-items: center;
         justify-content: center;
         width: 100%;
-        top: 920px;
+        top: 960px;
         color: #b9b9b9;
     }
 

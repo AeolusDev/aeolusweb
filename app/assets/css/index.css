@@ -169,7 +169,7 @@ body {
         padding-left: 0px;
         border-radius: 2rem;
         top: 850px;
-        transform: translateX(75px) translatey(0px);
+        transform: translateX(70px) translatey(0px);
         box-sizing: border-box;
     }
 
@@ -177,7 +177,7 @@ body {
     .row {
         position: relative;
         top: 850px;
-        left: 20px;
+        left: 50px;
         width: fit-content;
         height: fit-content;
         align-items: center;

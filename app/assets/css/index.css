@@ -70,7 +70,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         /* Optional: Wrap items to the next line if needed */
-        font-size: 2px;
+        font-size: 70px;
     }
 
     /*--------------------------------------------------------------

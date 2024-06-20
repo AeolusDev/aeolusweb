@@ -160,7 +160,7 @@ body {
         align-items: center;
         justify-content: center;
         width: 100%;
-        top: 720px;
+        top: 750px;
         color: #b9b9b9;
     }
 
@@ -176,8 +176,8 @@ body {
 
     .row {
         position: relative;
-        top: 600px;
-        left: 450px;
+        top: 850px;
+        left: 20px;
         width: fit-content;
         height: fit-content;
         align-items: center;

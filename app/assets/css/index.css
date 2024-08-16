@@ -45,362 +45,50 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Styles for Mobiles */
-@media only screen and (max-width: 480px){
-
-    /*--------------------------------------------------------------
-    # NavBar
-    --------------------------------------------------------------*/
-    .navbar {
-        display: none;
-        visibility: hidden;
-    }
-
+@media only screen and (max-width: 425px){
 /*--------------------------------------------------------------
-# Hero Section
+# NavBar
 --------------------------------------------------------------*/
-
-    .hero .font-extrabold span {
-        height: fit-content;
-        width: 100%;
-        position: relative;
-        top: 250px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        /* Optional: Wrap items to the next line if needed */
-        font-size: 70px;
-    }
-
-    /*--------------------------------------------------------------
-# Links
---------------------------------------------------------------*/
-    .hero .font-extrabold {
-        position: relative;
-        width: 100%;
-        height: 100%;
-    }
-
-    .hero .font-extrabold a {
-        display: inline-block;
-        transform: translateX(-48px) translateY(0px);
-    }
-
-    .hero .font-extrabold .social-box {
-        position: relative;
-        top: 249px;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        gap: 20px;
-    }
-
-    .social-box a .icon-box{
-        position: relative;
-        width: 3rem;
-        height: 3rem;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .social-box a sl-icon{
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        top:30%;
-        size: 4rem;
-    }
-    
-    .social-box a iconify-icon{
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        top:30%;
-        size: 4rem;
-    }
-    /*--------------------------------------------------------------
-# Quotes
---------------------------------------------------------------*/
-.hero .quoteField{
-        top: 500px;
-        width: 100%;
-        height: fit-content;
-        position: absolute;
-        z-index: 20;
-        color: #8F5FD8;
-        font-size: 18px;
-        text-decoration: none;
-        font-style: normal;
-        font-weight: 700;
-        text-align: center;
-        font-family: Helvetica;
-    }
-
-    /*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
-    .abt_title {
-        font-size: 40px;
-        height: fit-content;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        top: 660px;
-    }
-
-    .abt_desc {
-        font-size: 20px;
-        height: fit-content;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        top: 750px;
-        color: #b9b9b9;
-    }
-
-    .logo {
-        position: relative;
-        padding-left: 0px;
-        border-radius: 2rem;
-        top: 850px;
-        transform: translateX(50px) translatey(0px);
-        box-sizing: border-box;
-    }
-
-
-    .row {
-        position: relative;
-        top: 850px;
-        left: 30px;
-        width: fit-content;
-        height: fit-content;
-        align-items: center;
-        margin-right: 10px;
-        font-size: 18px;
-    }
-
-    .row .birthday {
-        position: relative;
-        top: 30px;
-    }
-
-    .row .website {
-        position: relative;
-        top: 40px;
-
-    }
-
-    .row .age {
-        position: relative;
-        top: 50px;
-        height: 30px;
-    }
-
-    .row .email {
-        position: relative;
-        top: 60px;
-    }
-
-    #date {
-        position: relative;
-        left: 65px;
-        top: -26px;
-    }
-
-
-    /*--------------------------------------------------------------
-# Stats Section
---------------------------------------------------------------*/
-    .stat_title {
-        font-size: 40px;
-        height: fit-content;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        top: 950px;
-        width: 100%;
-    }
-
-    .stat_desc {
-        font-size: 20px;
-        height: fit-content;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        top: 1020px;
-        color: #b9b9b9;
-    }
-
-    .aos-init .progress-bars {
-        width: 100%;
-        height: fit-content;
-        position: relative;
-        top: 1050px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .aos-init .progress-bars .progress {
-        position: relative;
-        width: 80%;
-        top: 500px;
-        left: 0px;
-        padding-bottom: 50px;
-    }
-
-    .aos-init .progress-bars .progress {
-        height: 60px;
-        display: block;
-        background: none;
-        border-radius: 0;
-    }
-
-    .aos-init .progress-bars .progress .skill {
-        padding: 10px 0;
-        margin: 0;
-        text-transform: uppercase;
-        display: block;
-        font-weight: 600;
-        font-family: "Poppins", sans-serif;
-        color: #45505b;
-    }
-
-    .aos-init .progress-bars .progress .skill .val {
-        float: right;
-        font-style: normal;
-    }
-
-    .aos-init .progress-bars .progress-bar-wrap {
-        background: #f2f3f500;
-    }
-
-    .aos-init .progress-bars .progress-bar {
-        width: 1px;
-        height: 10px;
-        transition: 0.9s;
-        background-color: #0563bb;
-    }
-
-    /*--------------------------------------------------------------
-# Contact Section
---------------------------------------------------------------*/
-    .cnt_title {
-        font-size: 40px;
-        height: fit-content;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        top: 1260px;
-        width: 100%;
-    }
-
-    .cnt_desc {
-        font-size: 20px;
-        height: fit-content;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        top: 1320px;
-        color: #b9b9b9;
-    }
-
-    .aos-init .info {
-        position: relative;
-        width: 50%;
-        height: fit-content;
-        align-items: center;
-        justify-content: center;
-        margin-right: 10px;
-    }
-
-    .aos-init .info .address {
-        position: relative;
-        width: 100%;
-        left: 400px;
-    }
-
-    .aos-init .info .email {
-        position: relative;
-        width: 100%;
-        left: 400px;
-    }
-
-    /*--------------------------------------------------------------
-# Footer Section
---------------------------------------------------------------*/
-
-    .footer_title {
-        font-size: 40px;
-        height: fit-content;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        top: 1560px;
-        width: 100%;
-    }
-
-    .copyright {
-        font-size: 18px;
-        height: fit-content;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        top: 1620px;
-        color: #b9b9b9;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+.navbar{       
+    content: hidden;
 }
 
-/* Styles for tablets */
-@media only screen and (min-width:480px) {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
 .hero .font-extrabold span{
+    height: fit-content; 
+} 
+
+/*--------------------------------------------------------------
+# Links
+--------------------------------------------------------------*/
+.hero .font-extrabold{
     position: relative;
-    top: 50px;
+    width: 100%;
+    height: 100%;
+}
+.hero .font-extrabold a{
+    display: inline-block;
+    transform: translateX(-48px) translateY(0px);
+}
+
+.hero .font-extrabold .social-box{
+    position: relative;
+    top: 249px;
+    width: 100%;
+    left: 5%;
     justify-content: center;
     align-items: center;
     display: flex;
+    gap: 50rem; /* Optional: Add space between items */
     flex-wrap: wrap; /* Optional: Wrap items to the next line if needed */
-    width: 100%;
-    height: fit-content;
-    font-size: 120px;
-}
-
-.navbar{
-    height: 100%;
-    width: fit-content;
-    position: fixed;
-    top: 50%;
-    left: 20px;
-    transform: translateY(-50%); /* Adjust to center */
-    z-index: 16; /* Ensure it stays on top */
 }
 
 .social-box a .icon-box{
-    width: 4rem;
-    height: 4rem;
+    width: 3.2rem;
+    height: 3.2rem;
 }
 
 .social-box a sl-icon{
@@ -422,24 +110,104 @@ body {
 # Quotes
 --------------------------------------------------------------*/
 .hero .quoteField{
-    top: 540px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    top: 450px;
+    left: 2px;
     position: absolute;
     z-index: 20;
     color:#8F5FD8;
-    font-size:20px;
+    font-size:16px;
     text-decoration:none;
     font-style:normal;
     font-weight:700;
     text-align: center;
     font-family:Helvetica;
+    max-width: 90%; /* Prevents the quoteField from being too wide */
+    word-wrap: break-word; /* Ensures long words break onto the next line */
+    overflow-wrap: break-word; /* Ensures long words break onto the next line */
+    white-space: normal; /* Ensures text wraps */
 }
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.abt_title{
+    font-size: 40px; 
+    height: fit-content; 
+    position: absolute; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    top:660px;
+}
+
+.abt_desc{
+    font-size: 20px; 
+    height: fit-content; 
+    position: absolute; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    top:720px;
+    color: #b9b9b9;
+}
+
+.aos-init img{
+size: 20px;
+}
+
+.logo{
+    position: relative;
+    size: 16px;
+    left: -10px;
+    border-radius: 2rem;
+    top:850px;
+    transform: translateX(65px) translatey(0px);
+    box-sizing: border-box;
 }
 
 
+.row{
+    position: relative;
+    top: 600px;
+    left: 450px;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    margin-right: 10px;
+    font-size:18px;
+}
+
+.row .birthday{
+    position: relative;
+    top:50px;
+}
+
+.row .website{
+    position: relative;
+    top: 40px;
+
+}
+
+.row .age{
+    position: relative;
+    top: 50px;
+    height:30px;
+}
+
+.row .email{
+    position: relative;
+    top: 60px;
+}
+
+#date {
+    position: relative;
+    left:65px;
+    top:-26px;
+}
+
+}
 
 /* Styles for desktops */
 @media  only screen and (min-width: 1024px) {
@@ -451,7 +219,7 @@ body {
     width: fit-content;
     position: fixed;
     top: 50%; /* Center vertically */
-    left: 20px;
+    left: 5px;
     transform: translateY(-50%); /* Adjust to center */
     z-index: 16; /* Ensure it stays on top */
 }
@@ -530,6 +298,10 @@ body {
     font-weight:700;
     text-align: center;
     font-family:Helvetica;
+    max-width: 90%; /* Prevents the quoteField from being too wide */
+    word-wrap: break-word; /* Ensures long words break onto the next line */
+    overflow-wrap: break-word; /* Ensures long words break onto the next line */
+    white-space: normal; /* Ensures text wraps */
 }
 
 /*--------------------------------------------------------------
@@ -682,6 +454,13 @@ body {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.sec_cnt{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    place-items: center;
+}
+
 .cnt_title{
     font-size: 40px; 
     height: fit-content; 
@@ -707,28 +486,31 @@ body {
 
 .aos-init .info{
     position: relative;
-    width: 50%;
+    width: 100%;
     height: fit-content;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
+    top: 1400px;
 }
 
 .aos-init .info .address{
     position: relative;
     width: 100%;
-    left: 400px;
 }
 
 .aos-init .info .email{
     position: relative;
     width: 100%;
-    left: 400px;
 }
 
 /*--------------------------------------------------------------
 # Footer Section
 --------------------------------------------------------------*/
+.sec_footer{
+    position: relative;
+    top: 1560px;
+    bottom: -50px;
+}
 
 .footer_title{
     font-size: 40px; 
@@ -737,7 +519,6 @@ body {
     display: flex; 
     align-items: center; 
     justify-content: center;
-    top: 1560px;
     width: 100%;
 }
 
@@ -748,8 +529,8 @@ body {
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    width: 100%; 
-    top:1620px;
+    width: 100%;
+    top: 50px;
     color: #b9b9b9;
 }
 

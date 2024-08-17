@@ -45,7 +45,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 480px){
 /*--------------------------------------------------------------
 # NavBar
 --------------------------------------------------------------*/
@@ -58,7 +58,9 @@ body {
 --------------------------------------------------------------*/
 
 .hero .font-extrabold span{
-    height: fit-content; 
+    font-size: 3rem;
+    text-align: center;
+    padding: 0 1rem; 
 } 
 
 /*--------------------------------------------------------------
@@ -76,19 +78,19 @@ body {
 
 .hero .font-extrabold .social-box{
     position: relative;
-    top: 249px;
+    top: 150px;
+    left: 0;
     width: 100%;
-    left: 5%;
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 50rem; /* Optional: Add space between items */
+    gap: 1rem; /* Optional: Add space between items */
     flex-wrap: wrap; /* Optional: Wrap items to the next line if needed */
 }
 
 .social-box a .icon-box{
-    width: 3.2rem;
-    height: 3.2rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .social-box a sl-icon{
@@ -110,12 +112,12 @@ body {
 # Quotes
 --------------------------------------------------------------*/
 .hero .quoteField{
-    top: 450px;
-    left: 2px;
+    top: 300px;
+    left: 5%;
     position: absolute;
     z-index: 20;
     color:#8F5FD8;
-    font-size:16px;
+    font-size:14px;
     text-decoration:none;
     font-style:normal;
     font-weight:700;
@@ -133,23 +135,25 @@ body {
 .abt_title{
     font-size: 40px; 
     height: fit-content; 
-    position: absolute; 
+    position: relative; 
     display: flex; 
     align-items: center; 
     justify-content: center; 
     width: 100%;
-    top:660px;
+    top:auto;
+    margin-top: 2rem;
 }
 
 .abt_desc{
     font-size: 20px; 
     height: fit-content; 
-    position: absolute; 
+    position: relative; 
     display: flex; 
     align-items: center; 
     justify-content: center; 
     width: 100%; 
-    top:720px;
+    top:auto;
+    margin-top: 2rem;
     color: #b9b9b9;
 }
 
@@ -160,22 +164,24 @@ size: 20px;
 .logo{
     position: relative;
     size: 16px;
-    left: -10px;
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 2rem;
-    top:850px;
-    transform: translateX(65px) translatey(0px);
+    top:auto;
+    margin-top: 2rem;
     box-sizing: border-box;
 }
 
 
 .row{
     position: relative;
-    top: 600px;
-    left: 450px;
-    width: fit-content;
+    top: auto;
+    left: 0;
+    width: 100%;
     height: fit-content;
     align-items: center;
-    margin-right: 10px;
+    padding: 0 1rem;
+    margin-top: 2rem;
     font-size:18px;
 }
 
@@ -206,6 +212,81 @@ size: 20px;
     left:65px;
     top:-26px;
 }
+
+/*--------------------------------------------------------------
+# Stats Section
+--------------------------------------------------------------*/
+.stat_title{
+    font-size: 40px; 
+    height: fit-content; 
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    top:auto;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.stat_desc{
+    font-size: 20px; 
+    height: fit-content; 
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    top:auto;
+    margin-top: 2rem;
+    color: #b9b9b9;
+}
+
+.aos-init .progress-bars{
+    width: 100%;
+    height: fit-content; 
+    position: absolute; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.aos-init .progress-bars .progress{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    top:auto;
+    margin-top: 2rem;
+    padding-bottom: 50px;
+}
+
+.aos-init .progress-bars .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+.aos-init .progress-bars .progress .skill {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #45505b;
+}
+.aos-init .progress-bars .progress .skill .val {
+    float: right;
+    font-style: normal;
+}
+.aos-init .progress-bars .progress-bar-wrap {
+    background: #f2f3f500;
+}
+.aos-init .progress-bars .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #0563bb;
+}
+
 
 }
 
@@ -288,7 +369,7 @@ size: 20px;
 --------------------------------------------------------------*/
 .quoteField{
     top: 540px;
-    left: 250px;
+    width: 100%;
     position: absolute;
     z-index: 20;
     color:#8F5FD8;
@@ -297,8 +378,10 @@ size: 20px;
     font-style:normal;
     font-weight:700;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     font-family:Helvetica;
-    max-width: 90%; /* Prevents the quoteField from being too wide */
+    max-width: 100%; /* Prevents the quoteField from being too wide */
     word-wrap: break-word; /* Ensures long words break onto the next line */
     overflow-wrap: break-word; /* Ensures long words break onto the next line */
     white-space: normal; /* Ensures text wraps */
@@ -490,7 +573,7 @@ size: 20px;
     height: fit-content;
     align-items: center;
     justify-content: center;
-    top: 1400px;
+    top: 1450px;
 }
 
 .aos-init .info .address{
@@ -539,5 +622,4 @@ img {
     height: auto;
 }
 }
-
 

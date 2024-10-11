@@ -95,6 +95,7 @@ body::-webkit-scrollbar-thumb {
     top: 500px;
     width:1220px;
     max-width:1220px;
+    left: 5%;
     position: absolute;
     z-index: 20;
     color:#8F5FD8;
@@ -102,7 +103,7 @@ body::-webkit-scrollbar-thumb {
     text-decoration:none;
     font-style:normal;
     font-weight:700;
-    text-align:center;
+    text-align: center;
     font-family:Helvetica;
     word-wrap: break-word; /* Ensures long words break onto the next line */
     overflow-wrap: break-word; /* Ensures long words break onto the next line */

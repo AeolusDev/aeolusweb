@@ -92,12 +92,13 @@ body::-webkit-scrollbar-thumb {
 # Quotes
 --------------------------------------------------------------*/
 .hero .quoteField{
-    top: 300px;
+    top: 500px;
+    width: 1000px;
     left: 5%;
     position: absolute;
     z-index: 20;
     color:#8F5FD8;
-    font-size:14px;
+    font-size:18px;
     text-decoration:none;
     font-style:normal;
     font-weight:700;

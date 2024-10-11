@@ -93,18 +93,17 @@ body::-webkit-scrollbar-thumb {
 --------------------------------------------------------------*/
 .hero .quoteField{
     top: 500px;
-    width: 1000px;
-    left: 5%;
+    width:1220px;
+    max-width:1220px;
     position: absolute;
     z-index: 20;
     color:#8F5FD8;
-    font-size:18px;
+    font-size:20px;
     text-decoration:none;
     font-style:normal;
     font-weight:700;
-    text-align: center;
+    text-align:center;
     font-family:Helvetica;
-    max-width: 90%; /* Prevents the quoteField from being too wide */
     word-wrap: break-word; /* Ensures long words break onto the next line */
     overflow-wrap: break-word; /* Ensures long words break onto the next line */
     white-space: normal; /* Ensures text wraps */

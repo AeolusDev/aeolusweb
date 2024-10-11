@@ -24,5 +24,11 @@ export let quotes = [
     "A lie is an exceptional form of Love!",
     "I am the embodiment of Amaterasu. I am what you call a 'God'.",
     "I realized that the world is all about money.",
-    "HOLY CRAP YOUTUBE'S AMAZING! WHAT A PROGRESSIVE ERA WE LIVE IN!"
+    "HOLY CRAP YOUTUBE'S AMAZING! WHAT A PROGRESSIVE ERA WE LIVE IN!",
+    "Life is like fortnite… at the end of the day even the winner goes back to the lobby🚬🐐",
+    "When life gives you lemons, call them 'yellow oranges' and sell them for double the price.",
+    "Anything that can go wrong, will go wrong, and at the worst possible time.",
+    "Computers are like air conditioning, they become useless once you open Windows",
+    "Whatever happens, happens",
+    "Religion is like a penis: having one is fine, but don’t take it out in public, and don’t ram it down my child’s throat."
 ];

@@ -334,3 +334,23 @@ body::-webkit-scrollbar-thumb {
         font-size: 15px;
     }
 }
+
+@media (min-width: 380px) {
+    .cnt_desc {
+        font-size: 14px;
+    }
+    
+    .copyright {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cnt_desc {
+        font-size: 14px;
+    }
+    
+    .copyright {
+        font-size: 14px;
+    }
+}

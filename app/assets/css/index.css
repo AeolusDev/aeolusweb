@@ -337,20 +337,20 @@ body::-webkit-scrollbar-thumb {
 
 @media (min-width: 380px) {
     .cnt_desc {
-        font-size: 14px;
+        font-size: 13px;
     }
     
     .copyright {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
 @media (max-width: 480px) {
     .cnt_desc {
-        font-size: 14px;
+        font-size: 13px;
     }
     
     .copyright {
-        font-size: 14px;
+        font-size: 13px;
     }
 }

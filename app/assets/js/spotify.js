@@ -3,7 +3,7 @@ async function loadSpotifyWidget() {
     
     const widgetOuterBox = document.querySelector('.widget_outer_box');
     
-    const res = await axios.get('http://localhost:8888/api');
+    const res = await axios.get('https://spotify-widget-api.netlify.app/api');
     const data = res.data;
     
     if(data.isPlaying === false) {

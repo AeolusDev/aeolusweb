@@ -122,7 +122,7 @@ body::-webkit-scrollbar-thumb {
 --------------------------------------------------------------*/
 .quoteField{
     margin-top: 20px;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
 }
@@ -201,17 +201,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*--------------------------------------------------------------
-# Stats Section
+# spotify Section
 --------------------------------------------------------------*/
-.stats {
+.spotify {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
-.stat_title{
+.spotify_title{
     font-size: 40px; 
     height: fit-content; 
     display: flex; 
@@ -220,7 +220,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
 }
 
-.stat_desc{
+.spotify_desc{
     font-size: 20px; 
     height: fit-content; 
     display: flex; 
@@ -230,13 +230,79 @@ body::-webkit-scrollbar-thumb {
     color: #b9b9b9;
 }
 
-.progress{
-    width: 80%;
-    margin-top: 20px;
+.widget_container {
+    margin-top: 40px;
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
-.progress-bars {
-    margin-top: 20px;
+.widget_outer_box {
+    background: #00e861;
+    background: linear-gradient(90deg, rgba(0, 232, 97, 1) 0%, rgba(42, 123, 155, 1) 100%);
+    border-radius: 20px;
+    height: 200px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 15px rgb(0, 232, 97);
+    
+    img {
+        width: 20%;
+        border-radius: 20px;
+        margin: 10px
+    }
+    
+    .songInfoContainer {
+        width: 70%;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        h1 {
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        
+        .spotifyIcon {
+            display: flex;
+            flex-direction: row;
+            align-self: end;
+            width: fit-content;
+            z-index: 1000;
+        }
+        
+        .openInSpotify {
+            width: fit-content;
+            font-size: 25px;
+            color: #1ED760;
+        }
+        
+        .songInfo {
+            margin-bottom: 40px;
+        }
+        
+        .progressBar {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+        
+        .progress-bar {
+            width: 80%;
+        }
+        
+        .progressInNum{
+            margin-left: 10px;
+        }
+    }
 }
 
 /*--------------------------------------------------------------

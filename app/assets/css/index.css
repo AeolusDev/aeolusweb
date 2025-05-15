@@ -282,10 +282,6 @@ body::-webkit-scrollbar-thumb {
             color: #1ED760;
         }
         
-        .songInfo {
-            margin-bottom: 40px;
-        }
-        
         .progressBar {
             width: 100%;
             display: flex;
@@ -301,6 +297,30 @@ body::-webkit-scrollbar-thumb {
         
         .progressInNum{
             margin-left: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .widget_outer_box{
+        width: 100% !important;
+        
+        img {
+            width: 50% !important;
+        }
+    }
+    
+    .progressBar {
+        display: none !important;
+    }
+    
+    .songInfo {
+        h1 {
+            font-size: 18px !important;
+        }
+        
+        p {
+            font-size: 10px !important;
         }
     }
 }

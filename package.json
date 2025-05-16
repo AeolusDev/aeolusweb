@@ -6,8 +6,9 @@
   "author": "AeolusDev <aeolusdeveloper@gmail.com>",
   "repository": "",
   "scripts": {
-    "start": "brunch watch --server",
-    "build": "brunch build --production"
+    "start": "next start",
+    "dev": "next dev --turbopack",
+    "build": "next build"
   },
   "license": "ISC",
   "dependencies": {
@@ -15,6 +16,9 @@
     "aos": "^2.3.4",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.5",
+    "next": "^15.3.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss": "^3.4.1"
   },

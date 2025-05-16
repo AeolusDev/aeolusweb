@@ -2,7 +2,7 @@
 const { addDynamicIconSelectors } = require('@iconify/tailwind');
 
 module.exports = {
-  content: ["./app/assets/*.{html,js}"],
+  content: ["./app/**/*.{html,js}"],
   theme: {
     extend: {
       spacing: {

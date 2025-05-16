@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html class="sl-theme-dark">
+<html class="sl-theme-dark" theme="dark">
 <head>
     <title>Aeolus Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
@@ -45,9 +45,6 @@
 </head>
 
 <body>
-    <script>
-        AOS.init();
-    </script>
 
     <div class="navbar">
         <a href="#">
@@ -60,9 +57,9 @@
                 <sl-icon name="person-fill"></sl-icon>
             </div>
         </a>
-        <a href="#spotify">
+        <a href="#cnt">
             <div class="icon-placeholder size-16 text-center rounded-full shadow-2xl backdrop-blur-xl bg-gray-400/10 ">
-                <sl-icon name="body-text"></sl-icon>
+                <sl-icon name="envelope"></sl-icon>
             </div>
         </a>
     </div>
@@ -71,43 +68,46 @@
     <canvas class="background"></canvas>
         <div class="hero-container box-border h-32 w-32 font-extrabold">
             <span class="hero-title text-9xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-                AeolusDev
-            </span>
+                AeolusDev</span>
 
             <div class="social-box">
-                <a href="https://x.com/captaincool6333">
-                    <sl-tooltip class="tooltip" content="Twitter/X" hoist>
+                <a class="link-wrapper" href="https://x.com/captaincool6333">
+                    <div class="circle"></div>
+                    <div class="icon-container">
                         <div class="icon-placeholder size-16 text-center rounded-full shadow-2xl backdrop-blur-xl bg-gray-400/10 ">
                             <sl-icon name="twitter-x"></sl-icon>
                         </div>
-                    </sl-tooltip>
+                    </div>
                 </a>
-                <a href="https://github.com/AeolusDev">
-                    <sl-tooltip class="tooltip" content="Github">
+                <a class="link-wrapper" href="https://github.com/AeolusDev">
+                    <div class="circle"></div>
+                    <div class="icon-container">
                         <div class="icon-placeholder size-16 text-center rounded-full shadow-2xl backdrop-blur-xl bg-gray-400/10 ">
                             <sl-icon name="github"></sl-icon>
                         </div>
-                    </sl-tooltip>
+                    </div>
                 </a>
-                <a href="https://anilist.co/user/demonkingofweebs/">
-                    <sl-tooltip class="tooltip" content="Anilist">
+                <a class="link-wrapper" href="https://anilist.co/user/demonkingofweebs/">
+                    <div class="circle"></div>
+                    <div class="icon-container">
                         <div class="icon-placeholder size-16 text-center rounded-full shadow-2xl backdrop-blur-xl bg-gray-400/10 ">
                             <iconify-icon icon="simple-icons:anilist"></iconify-icon>
                         </div>
-                    </sl-tooltip>
+                    </div>
                 </a>
-                <a href="https://discord.com/users/596293027627270155">
-                    <sl-tooltip class="tooltip" content="Discord">
+                <a class="link-wrapper" href="https://discord.com/users/596293027627270155">
+                    <div class="circle"></div>
+                    <div class="icon-container">
                         <div class="icon-placeholder size-16 text-center rounded-full shadow-2xl backdrop-blur-xl bg-gray-400/10 ">
                             <sl-icon name="discord"></sl-icon>
                         </div>
-                    </sl-tooltip>
+                    </div>
                 </a>
             </div>
             <span class="quoteField text-center text-2xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500"></span>
         </div>
     </section>
-    <section class="about" data-aos="fade-up">
+    <section class="about">
         <div id="about" class="abt_title bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 z-20">
                             ABOUT
         </div>
@@ -126,7 +126,7 @@
             </div>
         </div>
     </section>
-    <section class="spotify" data-aos="fade-up">
+    <section class="spotify">
         <div id="spotify" class="spotify_title bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 z-20">
             SPOTIFY
         </div>
@@ -139,7 +139,7 @@
             </div>
         </div>
     </section>
-    <section class="cnt" data-aos="fade-up">
+    <section class="cnt">
         <div id="cnt" class="cnt_title bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 z-20">
                 CONTACT
         </div>

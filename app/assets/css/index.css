@@ -301,6 +301,62 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+.link-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden; /* ensures .circle doesn't overflow */
+}
+
+.social-box {
+    a {
+        border-radius: 100%;
+    }
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: radial-gradient(circle at center center, rgb(93, 60, 152), rgb(10, 3, 9));
+    filter: blur(4px);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(1) rotate(0deg);
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+.icon-container {
+    margin: 10px;
+}
+
+.link-wrapper:hover .circle {
+    opacity: 1;
+    animation: rotateSingle 2.5s forwards; 
+    border: 1px solid rgb(156 163 175 / 1);
+}
+
+.icon-placeholder {
+  position: relative; /* Make sure it allows z-index to stack */
+  z-index: 2;
+}
+
+@keyframes rotateSingle {
+  0% {
+    transform: translate(-50%, -50%) scale(1) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(3) rotate(360deg); 
+  }
+}
+
+
+
 @media screen and (max-width: 480px) {
     .widget_outer_box{
         width: 100% !important;
@@ -355,7 +411,7 @@ body::-webkit-scrollbar-thumb {
     color: #b9b9b9;
 }
 
-.aos-init .info{
+.info{
     position: relative;
     width: fit-content;
     height: fit-content;
@@ -363,7 +419,7 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
 }
 
-.aos-init .info .address{
+.info .address{
     margin-top: 20px;
     width: 100%;
     display: flex;
@@ -375,7 +431,7 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-.aos-init .info .email{
+.info .email{
     margin-top: 20px;
     width: 100%;
     display: flex;

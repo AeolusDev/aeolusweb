@@ -13,7 +13,6 @@ function shuffleQuotes(array) {
 }
 
 const randomizedQuotes = shuffleQuotes(quotes);
-console.log(randomizedQuotes);
 
 if (quoteField) {
     new Typed(quoteField, {

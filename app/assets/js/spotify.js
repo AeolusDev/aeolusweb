@@ -7,7 +7,7 @@ async function loadSpotifyWidget() {
     const data = res.data;
     
     if(data.isPlaying === false) {
-      widgetOuterBox.innerHTML = `<p style="display: flex;width: 100%; justify-content: center; align-items: center; font-weight: bolder; font-size: 50px;"> No Song Is Being Played </p>`
+      widgetOuterBox.innerHTML = `<p style="display: flex;width: 100%; justify-content: center; align-items: center; font-weight: bolder; font-size: 30px;"> No Song Is Being Played </p>`
       return;
     };
     

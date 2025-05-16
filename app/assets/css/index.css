@@ -66,6 +66,13 @@ body::-webkit-scrollbar-thumb {
 
 
 @media (max-width: 768px) {
+    .hero {
+        height: 60% !important;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    
     .navbar {
         display: none;
     }

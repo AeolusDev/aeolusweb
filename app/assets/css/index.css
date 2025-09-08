@@ -7,6 +7,7 @@ html, body {
     --sb-thumb-color: #e800ff; 
     --sb-size: 5px;
     scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    
 }
 
 
@@ -39,6 +40,9 @@ body::-webkit-scrollbar-thumb {
     z-index: -1;
 }
 
+section {
+    padding: 20px 0;
+}
 /*--------------------------------------------------------------
 # NavBar
 --------------------------------------------------------------*/
@@ -195,6 +199,10 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+.abt-content {
+    margin-bottom: 20px;
+}
+
 @media (max-width: 768px) {
     .row {
         margin-top: 10px;
@@ -206,7 +214,37 @@ body::-webkit-scrollbar-thumb {
         margin-top: 20px;
     }
 }
+/*--------------------------------------------------------------
+# Skills Section
+--------------------------------------------------------------*/
+.skills{
+    justify-items: center;
 
+    .skills-container {
+        margin-top: 20px;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .skill-box {
+        margin-top: 20px;
+        font-family: 'Noto Sans Mono', monospace;
+        background: oklch(0.25 0.02 277.51 / 0.67);
+        border-radius: 20px;
+        width: 15%;
+        height: 150px;
+        align-items: center;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+    }
+}
 /*--------------------------------------------------------------
 # spotify Section
 --------------------------------------------------------------*/
@@ -396,7 +434,7 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .cnt_title{
@@ -472,6 +510,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 18px; 
     height: fit-content;
     display: flex; 
+    flex-direction: column;
     align-items: center; 
     justify-content: center; 
     width: 100%; 

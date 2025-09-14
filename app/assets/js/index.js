@@ -77,7 +77,7 @@ window.onload= function() {
   skills.forEach(skill => {
     skillsContainer.innerHTML += `
     <div class="skill-box " id="${skill.name.toLowerCase()}-box">
-      <svg role="img" style="fill: ${skill["fill-color"]}; width: 50%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>${skill.name}</title>${skill.svg}</svg>
+      <svg role="img" style="fill: ${skill["fill-color"]};" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>${skill.name}</title>${skill.svg}</svg>
       <h2 class="bold">${skill.name}</h2>
     </div>
     `
